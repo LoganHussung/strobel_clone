@@ -1,0 +1,135 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container1 {
+  width: 50%;
+  background-color: #1560FB;
+  position: fixed;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header{
+  position: relative;
+  height: 96px;
+  top: 20px;
+}
+
+.header img:hover {
+  opacity: .8
+}
+
+.middlepage{
+  position: relative;
+  width: 100%;
+  display: block;
+  margin-top: 150px;
+}
+
+.middlepage img {
+  border-radius: 100%;
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  display: block;
+  box-shadow: 0 2px 2px 2px #0A4DD9;
+}
+
+.middlepagetag {
+  text-align: center;
+  color: #fefefe;
+  opacity: .8;
+  margin-top: 30px;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.middlepagetext {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 0;
+}
+
+.middlepagetext a {
+  color: #fefefe;
+  text-decoration: none;
+  border-bottom: 2px solid #fefefe;
+}
+
+.button {
+  margin: 0 auto;
+}
+.button a {
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  width: 296px;
+  height: 50px;
+  background-color: #1560FB;
+  color: #fefefe;
+  text-align: left;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button:hover {
+  display: block;
+  width: 296px;
+  height: 50px;
+  background-color: #fefefe;
+  color: #1560FB;
+  text-align: left;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button::after {
+  content: '\279C';
+  float: right;
+}
+
+.footer1{
+  position: relative;
+  border: 2px solid red;
+  height: 100;
+  width: 50%;
+  top: 50px;
+  float:left;
+}
+
+.footer img {
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+.footer2{
+  position: relative;
+  border: 2px solid red;
+  height: 100;
+  width: 50%;
+  top: 50px;
+  float:left;
+}
