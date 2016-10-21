@@ -6,13 +6,16 @@ html, body {
 }
 * {
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 .container1 {
+
   width: 50%;
   background-color: #1560FB;
   position: fixed;
   height: 100%;
   box-sizing: border-box;
+  float: left;
 }
 
 .header{
@@ -29,7 +32,7 @@ html, body {
   position: relative;
   width: 100%;
   display: block;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .middlepage img {
@@ -110,26 +113,161 @@ button::after {
   content: '\279C';
   float: right;
 }
+.footer {
+  margin-top: 20%;
+}
+
+.flag {
+color: #A1C0F8;
+padding-bottom: 8px;
+}
+
+.flag:hover {
+color: white;
+padding-bottom: 8px;
+}
 
 .footer1{
   position: relative;
-  border: 2px solid red;
-  height: 100;
+  height: 100%;
   width: 50%;
-  top: 50px;
   float:left;
+  padding-left: 8px;
 }
 
-.footer img {
-  height: 30px;
-  width: 30px;
+.footer1 img {
+  height: 25px;
+  width: 25px;
   padding-top: 5px;
 }
-.footer2{
+
+.footer2 {
   position: relative;
-  border: 2px solid red;
-  height: 100;
   width: 50%;
-  top: 50px;
-  float:left;
+  height: 25px;
+  float:right;
+}
+
+.footer2 li {
+  margin-left: 2px;
+  margin-right: 13px;
+  float: right;
+  list-style: none;
+  height: 15px;
+  width: 15px;
+}
+
+.container2 {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  height: 100%;
+  box-sizing: border-box;
+  float: right;
+  top: 0;
+  right: 0;
+  line-height: 26px;
+  padding-left: 30px;
+}
+.aboutme {
+  margin-top: 50px;
+}
+.maintag {
+  display: block;
+  color: #1560FB;
+  float: left;
+  width: 80px;
+  clear: both;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.aboutmetext {
+  width: 75%;
+  max-width: 500px;
+  float: left;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.aboutmelist {
+  float: left;
+  clear: both;
+  margin: 20px 0 0 100px;
+}
+.aboutmelist ul{
+  margin: 0;
+  padding: 0;
+}
+.aboutmelist li::before{
+  content: ">";
+  color: blue;
+  padding-right: 15px;
+  margin: 0;
+}
+ .aboutmelist li {
+  max-width: 500px;
+  float: left;
+  line-height: 26px;
+  clear: both;
+  list-style: none;
+  font-weight: bold;
+}
+.projects {
+  float: left;
+  margin-top: 40px;
+}
+.allprojects {
+  width: 75%;
+  max-width: 500px;
+  float: left;
+  display: block;
+  margin-left: 20px;
+
+}
+.mainproject {
+  margin-top: 20px;
+}
+.mainproject p {
+  font-size: 15px;
+}
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+h2::after {
+  content: "\21fe";
+  padding-left: 15px;
+  color: blue;
+}
+
+.experience {
+  font-weight: bold;
+  display: inline-block;
+}
+.title {
+  display: block;
+margin-bottom: 20px;
+}
+.Year {
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+}
+.resume {
+  display: block;
+  margin: 60px 0 80px 0;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h3::after {
+  content: "\21fe";
+  color: blue;
+  padding-left: 20px;
 }
